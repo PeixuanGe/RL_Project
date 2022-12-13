@@ -1,4 +1,4 @@
 Value estimates during the training is on the TensorBoard, update/q section
 To see value estimates for final model:
-python3 vizdoom_train.py --task "{task name}" --double {if use double dqn} --resume-path {path to policy.pth} --watch --est --test-num 1
+python3 vizdoom_train.py --task "{task name}" --double {0 for dqn, 1 for double dqn} --resume-path {path to policy.pth} --watch --est --test-num 1
 If need to save game play, add --save-lmp and use replay.py to make mp4 file
